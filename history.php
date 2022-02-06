@@ -61,7 +61,7 @@ if (!$fp) {
     fputs($fp, "GET /played.html HTTP/1.0\r\nUser-Agent: Mozilla\r\n\r\n");
     while (!feof($fp)) {
         $info = fgets($fp);
-        $info = str_replace('HTTP/1.1', "", str_replace('200', "", str_replace('OK', "", str_replace('Content-Type:text/html;charset=utf-8', "", str_replace('Content-Length:3321', "", $info)))));
+        $info = str_replace('HTTP/1.1', "", str_replace('200', "", str_replace('OK', "", str_replace('Content-Type:text/html;charset=utf-8', "", str_replace('Content-Length:', "Tartalom hossza: ", $info)))));
         echo $info;
     }
     $content = get_string_between($info, "Admin Login</a></font></td></tr></table></td></tr></table><br>", "<br><br><table");
