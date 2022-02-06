@@ -27,7 +27,7 @@ címen található munka alapján.
    
 ===================================  CREATIVE COMMON LICENSZ  =====================================
 
-A Creative Common licensz magyar verziója a https://mcomp.hu/cc/cc.pdf címről tölthető le.
+A Creative Common licensz magyar verziója a https://mcomp.hu/cc/cc.pdf címről tölthető le
 Eredeti verzió a https://creativecommons.org/licenses/by-sa/4.0/ címen érhető el.
 
 ===================================================================================================
