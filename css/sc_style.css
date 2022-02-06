@@ -1,0 +1,63 @@
+/* 
+    Created on : 2022.02.06., 9:18:49
+    Author     : Creatus
+*/
+* {
+    background-color: #fff;
+    color: #000;
+}
+* a {
+    color: dodgerblue;
+}
+.container {
+    margin: 20px 60px !important;
+    overflow: auto;
+}
+.title-hover {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.title-hover:hover {
+    text-shadow: 0 0 2px #555 !important;
+    transition: all .4s !important;
+    /* text-decoration: underline !important; */
+    color: #333 !important;
+}
+.data-pos {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+#history {
+    margin: 30px 0 !important;
+    font-size: 14px;
+    line-height: 14px;
+}
+#history .thr, .logo, #history a {
+    border: none !important;
+    display: none !important;
+}
+#history table tr:first-child, #history table tr td:nth-child(3) {
+    display: none !important;
+}
+#history table tr td:first-child {
+    font-weight: bold !important;
+    border-right: 1px solid #888 !important;
+}
+/* Current Song - Display */
+#history table tr:nth-child(2) {
+    display: none !important;
+}
+/* Current Song - Display */
+#history table tr td {
+    padding: 4px 8px 4px 4px;
+}
+#history table {
+    margin: 6px 0;
+}
+#history:before {
+    margin-top: 20px;
+    margin-left: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    content: "Lejátszási előzmények";
+}
