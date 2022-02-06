@@ -18,16 +18,16 @@ Mint látható, a kódban erre külön van egy komment a kezdő fejlesztők szá
 
 Egyes információkat akaratlanul is megjelenít a PHP szkript, ezért az str_replace - vel lett kivágva.
 
-==============================  SZERZŐI JOGI KÖZLEMÉNY  =================================
+===============  SZERZŐI JOGI KÖZLEMÉNY  ==================
    
 Az eredeti licensz Thomas Kroll ShoutCAST DNAS v2 adatelemző licence a Creative Commons 
 (Oszd meg! Nevezd meg!) 4.0 nemzetközi licenc alapján készült, melynek linkje már nem érhető el.
 Az újradolgozásért Bujdosó Lajos felelős a https://www.mcomp.hu/song.php.txt 
 címen található munka alapján.
    
-==============================  CREATIVE COMMON LICENSZ  ================================
+===============  CREATIVE COMMON LICENSZ  =================
 
 A Creative Common licensz magyar verziója a https://mcomp.hu/cc/cc.pdf címről tölthető le.
 Eredeti verzió a https://creativecommons.org/licenses/by-sa/4.0/ címen érhető el.
 
-==================================================================================
+===========================================================
